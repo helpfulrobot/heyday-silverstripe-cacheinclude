@@ -172,7 +172,6 @@ class CacheIncludeTest extends \PHPUnit_Framework_TestCase
         );
 
         $this->assertEquals(4, $i);
-
     }
 
     public function testForceExpire()
